@@ -13,11 +13,11 @@ public class LaunchBrowser {
 	public static void main(String[] args) 
 	{
 		//WebDriverManager.firefoxdriver().setup(); 
-	//	WebDriverManager.chromedriver().setup();
-	WebDriverManager.edgedriver().setup();
+	WebDriverManager.chromedriver().setup();
+	//WebDriverManager.edgedriver().setup();
 				
-	 //  WebDriver driver = new ChromeDriver();
-		WebDriver driver = new EdgeDriver();
+	   WebDriver driver = new ChromeDriver();
+		//WebDriver driver = new EdgeDriver();
 		//WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com");

@@ -26,7 +26,7 @@
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>3.141.59</version>
+    <version>4.10.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 <dependency>
@@ -37,11 +37,12 @@
 
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.4.0</version>
-    <scope>test</scope>
+   
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
